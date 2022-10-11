@@ -6,7 +6,7 @@ Install node JS **14.17.\***, You can read the installation guide in [https://no
 
 ##### 2. create database
 
-then create your first Database name "test_rolling_glory"
+then create your first Database name "dev_test"
 
 ##### 3. Install Packages
 
