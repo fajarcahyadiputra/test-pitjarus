@@ -26,7 +26,7 @@ $ cp env.example .env
 
 Setup your database settings
 
-```bash
+````bash
 NODE_ENV=development
 TIME_ZONE=Asia/Jakarta
 
@@ -36,7 +36,7 @@ Install sequelize ORM CLI to create or run migration, seeder, etc
 
 ```bash
 $ npm install --save-dev sequelize-cli
-```
+````
 
 to see sequelize command you can type
 
@@ -78,70 +78,8 @@ $ pm2 start src/index.js --watch
 
 ##### 7. Finish
 
-endpoint: 
+endpoint:
 
-Auth
+HOME
 
-```bash
-# http://localhost:300/login
-```
-
-Activity
-
-```bash
-# POST : http://localhost:300/activity-groups
-# PATCH : http://localhost:300/activity-groups/{id}
-# GET : http://localhost:300/activity-groups/{id}
-# GET : http://localhost:300/activity-groups
-# DELETE : http://localhost:300/activity-groups
-```
-
-Todo
-
-```bash
-# POST : http://localhost:300/todo-items
-# PATCH : http://localhost:300/todo-items/{id}
-# GET : http://localhost:300/todo-items/{id}
-# GET : http://localhost:300/todo-items
-# DELETE : http://localhost:300/todo-items
-```
-
-User
-
-```bash
-# POST : http://localhost:300/user
-# PATCH : http://localhost:300/user/{id}
-# PUT : http://localhost:300/user/{id}
-# GET : http://localhost:300/user/{id}
-# GET : http://localhost:300/user
-```
-
-Now setup is finished now you can login with default user or create new user:
-
-Login
-
-```bash
-# http://localhost:300/login
-```
-Request body
-```bash
-# email: admin@gmail.com
-# password: 12345678
-```
-Response : 
-
-```bash
- {
-  "status": "success",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZmMDRjOTk4LTRhYjUtNDM3NC1iNjkxLWI4YWJhYzA3MmFkYyIsImlhdCI6MTY2MDY3NjU1NywiZXhwIjoxNjYwNjgwMTU3fQ.kgR8mlEUmEW8UnjhkYWolEEAPPBLiVSSGoQU0JH0MmY"
-    }
-```
-and use token for create, delete, update action. Send it with headers name "authorization"
-
-postman collection : 
-
-https://www.getpostman.com/collections/9324e1e710d6b0e029dc
-
-
-
-
+# http://localhost:3000
