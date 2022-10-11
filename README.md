@@ -44,21 +44,9 @@ to see sequelize command you can type
 $ npx sequelize --help
 ```
 
-###### Running Migration
+##### 5. Import database
 
-Run migration by typing:
-
-```bash
-$ npx sequelize-cli db:migrate
-```
-
-###### Running Seeder
-
-Run seeder by typing:
-
-```bash
-$ npx sequelize-cli db:seed:all
-```
+import to database
 
 ##### 6. Install PM2 Process Manager
 
