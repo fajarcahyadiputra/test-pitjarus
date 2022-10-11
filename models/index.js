@@ -24,11 +24,5 @@ db.Store = require("./Store")(sequelize, Sequelize);
 db.StoreAccount = require("./StoreAccount")(sequelize, Sequelize);
 db.StoreArea = require("./StoreArea")(sequelize, Sequelize);
 
-// db.UserGift.belongsToMany(db.UserGift, {
-//     through: db.User,
-//     foreignKey: 'user_id',
-//     as: '_user_gifts'
-// })
-
 
 module.exports = db;
